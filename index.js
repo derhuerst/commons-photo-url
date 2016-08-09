@@ -20,6 +20,7 @@ const sizes = {
 const url = (filename, size) => {
 	let hash = md5(filename)
 	hash = hash[0] + '/' + hash[0] + hash[1]
+	filename = encodeURIComponent(filename)
 
 	if ('string' === typeof size && size !== 'original') {
 		if (size in sizes) return thumb(filename, hash, sizes[size])

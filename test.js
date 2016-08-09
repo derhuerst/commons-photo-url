@@ -7,6 +7,12 @@ const base = 'https://upload.wikimedia.org/wikipedia/commons/'
 
 
 
+test('A/B.jpg', (t) => {
+	t.plan(1)
+	const expected = base + 'f/fb/A%2FB.jpg'
+	t.equal(url('A/B.jpg'), expected)
+})
+
 test('Walnuts.jpg', (t) => {
 	t.plan(1)
 	const expected = base + '6/63/Walnuts.jpg'

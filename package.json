@@ -1,7 +1,7 @@
 {
 	"name":        "commons-photo-url",
 	"description": "Download Wikimedia Commons photos.",
-	"version":     "0.1.0",
+	"version":     "0.1.1",
 	"main":        "index.js",
 	"files":       ["index.js"],
 	"keywords":    ["wikimedia", "commons", "download", "photos", "url", "source"],
