@@ -63,3 +63,9 @@ test('Hazelnuts.jpg square', (t) => {
 	t.equal(url('Hazelnuts.jpg', url.sizes.square), expected)
 	t.equal(url('Hazelnuts.jpg', 'square'), expected)
 })
+
+test('Berlin U-Bahn station Wuhletal.jpg', (t) => {
+	t.plan(1)
+	const expected = base + 'thumb/d/d0/Berlin_U-Bahn_station_Wuhletal.jpg/500px-Berlin_U-Bahn_station_Wuhletal.jpg'
+	t.equal(url('Berlin U-Bahn station Wuhletal.jpg', 500), expected)
+})
