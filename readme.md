@@ -7,6 +7,7 @@
 [![dependency status](https://img.shields.io/david/derhuerst/commons-photo-url.svg)](https://david-dm.org/derhuerst/commons-photo-url)
 [![dev dependency status](https://img.shields.io/david/dev/derhuerst/commons-photo-url.svg)](https://david-dm.org/derhuerst/commons-photo-url#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/commons-photo-url.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 
 
 ## Installing
