@@ -20,7 +20,7 @@
 	"issues": "https://github.com/derhuerst/commons-photo-url/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=4"
+		"node": ">=6"
 	},
 	"devDependencies": {
 		"tap-min": "^1.1",
