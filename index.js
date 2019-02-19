@@ -1,8 +1,8 @@
 'use strict'
 
-const crypto = require('crypto')
+const {createHash} = require('crypto')
 
-const md5 = (input) => crypto.createHash('md5').update(input).digest('hex')
+const md5 = input => createHash('md5').update(input).digest('hex')
 
 const base = 'https://upload.wikimedia.org/wikipedia/commons/'
 const enc = encodeURIComponent

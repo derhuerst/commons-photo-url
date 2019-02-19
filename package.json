@@ -1,7 +1,7 @@
 {
 	"name": "commons-photo-url",
 	"description": "Download Wikimedia Commons photos.",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"main": "index.js",
 	"files": [
 		"index.js"
@@ -28,6 +28,6 @@
 	},
 	"scripts": {
 		"test": "tape test.js | tap-min",
-		"prepublish": "npm test"
+		"prepublishOnly": "npm test"
 	}
 }
