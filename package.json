@@ -23,7 +23,7 @@
 		"node": ">=6"
 	},
 	"devDependencies": {
-		"tap-min": "^1.1",
+		"tap-min": "^2.0.0",
 		"tape": "^4.6.2"
 	},
 	"scripts": {
