@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"tap-min": "^1.1",
-		"tape": "^4.6.2"
+		"tape": "^5.0.0"
 	},
 	"scripts": {
 		"test": "tape test.js | tap-min",
